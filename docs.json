@@ -1,72 +1,49 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Travlr Getaways",
+  "theme": "almond",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "primary": "#2c9688",
+    "light": "#ffb744",
+    "dark": "#316e66"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "type": "github",
+      "href": "https://github.com/apursley2012/travlr-getaways"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/apursley2012/travlr-getaways"
     }
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Welcome",
+        "pages": ["introduction", "about"]
+      },
+      {
+        "group": "Accommodations",
+        "pages": ["rooms/overview", "rooms/booking"]
+      },
+      {
+        "group": "Dining",
+        "pages": ["meals/overview"]
+      },
+      {
+        "group": "Destinations",
+        "pages": ["travel/overview", "travel/gale-reef", "travel/dawsons-reef", "travel/claires-reef"]
+      },
+      {
+        "group": "Travel Guide",
+        "pages": ["guide/water-safety", "guide/paddling", "guide/reef-etiquette", "guide/vacation-tips"]
+      },
+      {
+        "group": "Guest Services",
+        "pages": ["contact"]
+      }
+    ]
   }
 }

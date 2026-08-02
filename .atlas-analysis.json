@@ -1,0 +1,63 @@
+{
+  "projectType": "saas",
+  "projectName": "Travlr Getaways",
+  "projectDescription": "A multi-page beach resort website where guests can explore destinations, compare accommodations, preview dining options, read coastal travel guides, and make booking inquiries.",
+  "theme": "almond",
+  "primaryColor": "#2c9688",
+  "lightColor": "#ffb744",
+  "darkColor": "#316e66",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Welcome",
+        "pages": ["introduction", "about"]
+      },
+      {
+        "group": "Accommodations",
+        "pages": ["rooms/overview", "rooms/booking"]
+      },
+      {
+        "group": "Dining",
+        "pages": ["meals/overview"]
+      },
+      {
+        "group": "Destinations",
+        "pages": ["travel/overview", "travel/gale-reef", "travel/dawsons-reef", "travel/claires-reef"]
+      },
+      {
+        "group": "Travel Guide",
+        "pages": ["guide/water-safety", "guide/paddling", "guide/reef-etiquette", "guide/vacation-tips"]
+      },
+      {
+        "group": "Guest Services",
+        "pages": ["contact"]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Three accommodation tiers: First Class Room ($220/night), Deluxe Room ($150/night), and Suite Room ($180/night)",
+    "Curated reef dive destinations including Gale Reef (Sri Lanka), Dawson's Reef (Australia), and Claire's Reef (Bermuda)",
+    "Resort dining options: Seafood Special, Sumptuous Desserts, and Breakfast Buffet",
+    "Comprehensive coastal travel guide covering water safety, kayaking, reef etiquette, and vacation planning tips",
+    "Online booking form with room selection, date picker, and guest count",
+    "Guest contact form for reservations, experiences, and special service requests",
+    "Safety-first content sourced from NPS, NOAA, and U.S. Coast Guard"
+  ],
+  "publicApiSurface": [
+    "GET booking.html?room=first-class — pre-selects First Class Room in the booking form",
+    "GET booking.html?room=deluxe — pre-selects Deluxe Room in the booking form",
+    "GET booking.html?room=suite — pre-selects Suite Room in the booking form",
+    "POST contact.html — guest inquiry form (name, email, subject, message)",
+    "GET contact.html — booking form submission target (room, guests, check-in, check-out, name, email, phone, requests)",
+    "articles.html#safer-beach-day — anchor to beach day safety article",
+    "articles.html#before-you-paddle — anchor to kayak preparation article",
+    "articles.html#reef-visits — anchor to responsible reef visits article",
+    "articles.html#rip-currents — anchor to rip current awareness article",
+    "articles.html#beach-bag — anchor to beach bag checklist article",
+    "articles.html#activity-plan — anchor to coastal activity planning article",
+    "articles.html#diving-checklist — anchor to scuba diving checklist article",
+    "articles.html#first-aid — anchor to first aid preparation article",
+    "articles.html#sandcastles — anchor to safe sandcastle building article",
+    "articles.html#sun-protection — anchor to coastal sun protection article"
+  ]
+}
